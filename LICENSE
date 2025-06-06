@@ -1,21 +1,134 @@
-MIT License
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agrinho 2025 - Cuidando do Campo e do Futuro</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-Copyright (c) 2025 Thaissa918829
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f4f9f4;
+      color: #333;
+    }
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+    header {
+      background-color: #4caf50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+      flex-wrap: wrap;
+    }
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+    nav ul li {
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    footer {
+      background-color: #4caf50;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 30px;
+    }
+
+    section {
+      margin-top: 30px;
+    }
+
+    h2 {
+      color: #2e7d32;
+      margin-bottom: 10px;
+    }
+
+    ul, ol {
+      margin-top: 10px;
+      margin-left: 20px;
+    }
+
+    img {
+      margin-top: 20px;
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Projeto Agrinho 2025</h1>
+    <p><em>Cuidando do Campo e do Futuro</em></p>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#curiosidades">Curiosidades</a></li>
+        <li><a href="#dicas">Dicas</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="inicio">
+      <h2>Bem-vindo ao nosso projeto!</h2>
+      <p>Nosso site tem como objetivo conscientizar sobre a importância da agricultura familiar, sustentabilidade e respeito ao meio ambiente.</p>
+      <img src="https://via.placeholder.com/600x300" alt="Imagem do campo sustentável">
+    </section>
+
+    <section id="sobre">
+      <h2>Sobre o Projeto</h2>
+      <p>Este projeto foi desenvolvido com o intuito de contribuir para um futuro mais sustentável, valorizando o trabalho no campo, a preservação da natureza e o uso consciente dos recursos naturais.</p>
+    </section>
+
+    <section id="curiosidades">
+      <h2>Curiosidades sobre o Campo</h2>
+      <ul>
+        <li>A agricultura familiar representa cerca de 70% dos alimentos consumidos no Brasil.</li>
+        <li>Plantar árvores próximas à lavoura pode ajudar a manter a umidade do solo.</li>
+        <li>Compostagem transforma lixo orgânico em adubo natural.</li>
+      </ul>
+    </section>
+
+    <section id="dicas">
+      <h2>Dicas para um Campo Sustentável</h2>
+      <ol>
+        <li>Use adubos naturais, como esterco e compostagem.</li>
+        <li>Evite o desperdício de água na irrigação.</li>
+        <li>Faça a rotação de culturas para manter a saúde do solo.</li>
+        <li>Plante árvores nativas para ajudar na preservação.</li>
+      </ol>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Projeto Agrinho 2025 | Desenvolvido por [Seu Nome]</p>
+  </footer>
+
+</body>
+</html>
+
